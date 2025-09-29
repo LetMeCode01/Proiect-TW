@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Fotbalului</title>
+    <meta name="autor" content="Sima Mihai">
+    <meta name="description" content="Validare user si parola">
+    <link rel="stylesheet" href="style_comunitate.css" type="text/css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+    
+</head>
+<body>
+    <header>
+  <H1>CASA FOTBALULUI</H1>
+    <nav class="meniu" id="mymeniu">
+        
+        <a href="Acasa.html" class="item">Acasa</a>
+        <a href="Noutati.html" class="item">Noutati</a>
+        <a href="Comunitate.html" class="item">Comunitate</a>
+        <a href="PlanViitor.html" class="item">Despre</a>
+        
+    </nav>
+</header>
+<main>
+    <div class="principal"><h2>
+        Salut,microbistule! Pentru a debloca experienta full a site-ului, logheaza-te:
+     </h2>
+    </div>
+    <form id="login-form">
+        <div class="date1">
+            <label for="nume">Username:</label>
+            <input 
+                type="text"
+                id="username"
+                required
+                minlength="3"
+                maxlength="30"
+                size="40"
+                placeholder="Ex. mihaisima22"
+            />
+        </div>
+    
+        <div class="date">
+            <label for="parola">Introdu parola:</label>
+            <input 
+                type="password"
+                id="password"
+                required
+                minlength="3"
+                maxlength="30"
+                size="40"
+                placeholder="Parola"
+                
+            />
+        </div>
+    
+        <button type="submit">Login</button>
+    </form>
+    
+  
+</main>
+<footer></footer>
+<script type="text/javascript" src="comunitate_java.js"></script>
+</body>

@@ -1,0 +1,174 @@
+body{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    background-image:url(stadion_plan_viitor.jpg);
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 0%;
+    
+  }
+  .meniu a{
+      
+      float: left;
+      margin-top: 0.5%;
+      padding-bottom:0.5%;
+      color: white;
+      text-decoration: none;
+      font-size: 2rem;
+      width: 25%; 
+      text-align: center;
+      transition: transform 0.5s;  
+  }
+  .principal{
+    color:white;
+    text-align: center;
+  }
+  .date{
+    text-align: center;
+  }
+div {
+    
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 94vh;
+    font-size: 2.5rem;
+    text-align:center;
+    color: rgb(255, 255, 255);
+    
+  }
+  .meniu a:hover  {
+      background-color:#990099;
+      color:white;
+      transform:translateY(-0.3rem)
+  }
+  .date1{
+    color:white;
+    border-top:2px solid white;
+    border-left:2px solid white;
+    border-right:2px solid white;
+  }
+  .date{
+    color:white;
+    border-left:2px solid white;
+    border-right:2px solid white;
+    border-bottom:2px solid white;
+  }
+  h1{
+    background-color:#1cb900;    
+    color:white;
+    text-align:center;
+    text-decoration: solid; 
+    width: 100%; 
+    margin-top:0px;
+    margin-bottom: 0rem;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+  }   
+  .jucator{
+    display:block;
+  
+    width: 35%;
+    margin-top: 2%;
+   
+    transition: all 1s ease;
+   color:transparent; 
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-around; /* Distribuie spațiul în mod egal între elemente */
+    align-items: center; /* Centrează elementele vertical */
+    margin: 2% auto;
+    width: 90%; /* Ajustează lățimea containerului după preferințe */
+  }
+  .jucator1{
+    display:block;
+  
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 2%;
+   
+    transition: all 1s ease;
+   color:transparent; 
+  }
+  .jucator.zoom {
+    width: 50%; /* Mărim div-ul la 90% din lățimea părintelui */
+    color:black;
+  }
+  .jucator1.zoom {
+    width: 50%; /* Mărim div-ul la 90% din lățimea părintelui */
+    color:black;
+  }
+  img{
+    width:100%;
+  }
+  .jucator1.invizibil{
+    opacity:0.7;
+  }
+  .jucator.invizibil{
+    opacity:0.7;
+  }
+ .buton{
+  display: flex;
+  justify-content: center;
+ }
+  .okey{
+    background-color:orange;
+    border:orange;
+    color:white;
+    width: 20%;
+    height: 40px;
+  }
+  .okey:hover{
+    background-color: #d2691e;
+  }
+  button
+  {
+    background-color:#1b9a5b;
+    border:#997500;
+    color:white;
+    width: 20%;
+    height: 40px;
+  }
+  button:hover{
+    background-color: #990070;
+  }
+  @media screen and  (min-width: 768px) {
+      .meniu a{
+        float: left; 
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+        width: 25%; 
+        text-align: center;
+         
+      }   
+      .meniu {
+        margin:0;
+        overflow:hidden;  
+        background-color:black;
+        animation-name: example;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+      }
+  }  
+    .meniu {
+      margin:0;
+      background-color:#1cb900;
+    }
+      @keyframes miscare{
+        0%   {transform:translateX(-20px);
+         }
+      100% {transform:translateX(20px )}
+  }
