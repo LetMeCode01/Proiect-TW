@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Fotbalului</title>
+    <meta name="autor" content="Sima Mihai">
+    <meta name="description" content="Forms?">
+    <link rel="stylesheet" href="forum.css" type="text/css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    
+</head>
+<body>
+    <header>
+  <H1>CASA FOTBALULUI</H1>
+    <nav class="meniu" id="mymeniu">
+        
+        <a href="Acasa.html" class="item">Acasa</a>
+        <a href="Noutati.html" class="item">Noutati</a>
+        <a href="Comunitate.html" class="item">Comunitate</a>
+        <a href="PlanViitor.html" class="item">PlanViitor</a>
+        
+    </nav>
+</header>
+<main>
+
+    <div id="content">
+        <h2>Bine ai venit, <span id="user-name"></span>! Ca sa raspunzi si sa pui o intrebare , te rugam sa scrii si sa spui cui te adresezi .Pentru a incepe scrie comanda /enter + username ul tau</h2>
+    </div>
+    <form class="das">
+        <label for="msj">text:</label>
+        <input 
+            type="text"
+            id="msj"
+            required
+            minlength="3"
+            maxlength="30"
+            size="40"
+            placeholder="aici scrii mesajul tau"
+            pattern="^[A-Za-z0-9? ]+$"
+        />
+    </form>
+</main>
+<div class="buton">
+ <button id="logout-button">Logout</button>
+ <button id="post">Pune mesaj</button>
+</div>
+<div id="mesaje">
+</div> <script type="text/javascript" src="profile.js"></script>
+</body>
